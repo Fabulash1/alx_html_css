@@ -1,0 +1,26 @@
+
+body, main {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+main {
+    flex-direction: row;
+    flex: auto;
+}
+
+main article {
+    flex: 2;
+    background-color: bisque;
+}
+
+main aside {
+    flex: 1;
+}
+
+main article, main aside {
+    overflow-y: auto;
+}
