@@ -37,13 +37,41 @@
 #     print("{} wow" .format(number))
 # for numbers in "Precious":
 #     print(numbers.upper())
-for i in range(5):
-    for j in range(5):
-        print("{} * {} = {}".format(i,j,(i*j)))
+# for i in range(5):
+#     for j in range(5):
+#         print("{} * {} = {}".format(i,j,(i*j)))
     # if i <= 30:
     #     print(i)
     #     break
     # else:
         #print("ended")
-        """i am not sure how this will work out but i will do it anyway"""
-    
+"""i am not sure how this will work out but i will do it anyway"""
+# word = "Precious"
+# print('J' + word[1:])
+# print(len(word))
+
+# Squares = [2, 4, 8, 16, 32]
+# print(len(Squares))
+
+#a, b = 0, 1
+# while b <= 10:
+#     print(b)
+#     a, b = b, + a+b
+# else:
+#     print('nothing')
+
+# pets = ['cats', 'dogs', 'birds']
+# for p in pets:
+#     print(p,len(p))
+
+# for p in range(10):
+#     print(p)
+
+# b = ['why', 'are', 'you', 'stupid?']
+# for j in range(len(b)):
+#     print(j, b[j])
+# def greet(*people):
+#     for p in people:
+#         print("Hello {}".format(p))
+
+# greet("Precious", "Prince")
